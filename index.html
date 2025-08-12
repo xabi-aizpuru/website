@@ -27,9 +27,9 @@
 
         /* Header */
         header {
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(102, 126, 234, 0.2);
             backdrop-filter: blur(10px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid rgba(102, 126, 234, 0.3);
             position: fixed;
             width: 100%;
             top: 0;
@@ -86,7 +86,7 @@
         .hero h1 {
             font-size: 3.5rem;
             margin-bottom: 1rem;
-            background: linear-gradient(45deg, #fff, #f39c12);
+            background: linear-gradient(45deg, #667eea, #764ba2);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -318,7 +318,7 @@
         window.addEventListener('scroll', function() {
             const header = document.querySelector('header');
             if (window.scrollY > 100) {
-                header.style.background = 'rgba(0, 0, 0, 0.9)';
+                header.style.background = 'rgba(102, 126, 234, 0.9)';
             } else {
                 header.style.background = 'rgba(255, 255, 255, 0.1)';
             }
